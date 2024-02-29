@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.font-medium {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-primary {
+    color: var(--DarkBlue);
+}
+
+.text-secondary {
+    color: var(--GrayishBlue);
+}
+
+.text-center {
+    text-align: center;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%)
+}
+
+.bg-primary {
+    background-color: var(--LightGray);
+}
+
+.bg-white {
+    background-color: var(--White);
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.code-container {
+    width: 18%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.rounded-xl {
+    border-radius: 1rem;
+}
+
+p {
+    font-size: 15px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.px-4 {
+    padding: 0 1rem;
+}
+
+.mx-auto {
+    margin: auto 0;
+}
+
+.my-2 {
+    margin: .5rem 0;
+}
+
+.box-shadow {
+    box-shadow: #c2c2c2e9 0px 3px 6px, hsla(0, 0%, 81%, 0.814) 0px 3px 6px;
+}
+
+@media screen and (max-width: 375px) {
+    .code-container {
+        height: auto !important;
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .code-container {
+        height: auto !important;
+        width: 25%;
+    }
+}
